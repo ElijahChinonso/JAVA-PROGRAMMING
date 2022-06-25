@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="comfort">
-      <change beforePath="$PROJECT_DIR$/src/notePad/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notePad/Arithmetic.java" afterDir="false" />
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="this">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -31,29 +31,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ac" />
+      <recent name="notePad" />
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AirconditionerTest">
     <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="notePad.Account" />
       <module name="Man" />
@@ -67,8 +69,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AirconditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AirconditionerTest" />
         <item itemvalue="Application.Account" />
       </list>
     </recent_temporary>
@@ -84,7 +102,10 @@
       <workItem from="1656170771534" duration="589000" />
       <workItem from="1656171533696" duration="25000" />
       <workItem from="1656171602877" duration="109000" />
-      <workItem from="1656171800003" duration="1673000" />
+      <workItem from="1656171800003" duration="2309000" />
+      <workItem from="1656174335885" duration="100000" />
+      <workItem from="1656174453202" duration="15000" />
+      <workItem from="1656174719173" duration="3023000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -107,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656173297275</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="logic">
+      <created>1656173569914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656173569914</updated>
+    </task>
+    <task id="LOCAL-00005" summary="this">
+      <created>1656173802903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656173802903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +163,8 @@
     <MESSAGE value="i just wrote it" />
     <MESSAGE value="it is" />
     <MESSAGE value="comfort" />
-    <option name="LAST_COMMIT_MESSAGE" value="comfort" />
+    <MESSAGE value="logic" />
+    <MESSAGE value="this" />
+    <option name="LAST_COMMIT_MESSAGE" value="this" />
   </component>
 </project>
