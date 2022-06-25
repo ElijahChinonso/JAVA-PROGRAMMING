@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="to know if it's on">
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="just made my ac on and off">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ac/Airconditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/Airconditioner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" afterDir="false" />
     </list>
@@ -56,21 +57,8 @@
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AirconditionerTest">
-    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.Account" />
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="notePad.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AirconditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AirconditionerTest.test_decreaseTempIsInValid">
+    <configuration name="AirconditionerTest.test_decreaseTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
@@ -80,15 +68,83 @@
       </extension>
       <option name="PACKAGE_NAME" value="ac" />
       <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="test_decreaseTemp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirconditionerTest.test_decreaseTempIsInValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
+      <option name="METHOD_NAME" value="test_decreaseTempIsInValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirconditionerTest.test_decreaseTempIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
+      <option name="METHOD_NAME" value="test_decreaseTempIsValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirconditionerTest.test_increaseTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
+      <option name="METHOD_NAME" value="test_increaseTemp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirconditionerTest.test_increaseTempIsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
+      <option name="METHOD_NAME" value="test_increaseTempIsInvalid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AirconditionerTest" />
-        <item itemvalue="Application.Account" />
+        <item itemvalue="JUnit.AirconditionerTest.test_decreaseTempIsInValid" />
+        <item itemvalue="JUnit.AirconditionerTest.test_decreaseTemp" />
+        <item itemvalue="JUnit.AirconditionerTest.test_decreaseTempIsValid" />
+        <item itemvalue="JUnit.AirconditionerTest.test_increaseTempIsInvalid" />
+        <item itemvalue="JUnit.AirconditionerTest.test_increaseTemp" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +162,7 @@
       <workItem from="1656171800003" duration="2309000" />
       <workItem from="1656174335885" duration="100000" />
       <workItem from="1656174453202" duration="15000" />
-      <workItem from="1656174719173" duration="3632000" />
+      <workItem from="1656174719173" duration="6737000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -150,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656178298243</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="just made my ac on and off">
+      <created>1656178994903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656178994903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +237,7 @@
     <MESSAGE value="logic" />
     <MESSAGE value="this" />
     <MESSAGE value="to know if it's on" />
-    <option name="LAST_COMMIT_MESSAGE" value="to know if it's on" />
+    <MESSAGE value="just made my ac on and off" />
+    <option name="LAST_COMMIT_MESSAGE" value="just made my ac on and off" />
   </component>
 </project>
