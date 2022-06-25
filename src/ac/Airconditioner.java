@@ -11,4 +11,14 @@ public class Airconditioner {
         }
         return on;
     }
+
+    public String isOff(String off) throws Exception {
+        if (off == "off") {
+            System.out.println("ac is off");
+        }
+        else {
+            throw new Exception("enter proper is off");
+        }
+        return off;
+    }
 }

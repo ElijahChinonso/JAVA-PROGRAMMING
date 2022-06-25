@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="this">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="to know if it's on">
+      <change beforePath="$PROJECT_DIR$/src/ac/Airconditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/Airconditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +106,7 @@
       <workItem from="1656171800003" duration="2309000" />
       <workItem from="1656174335885" duration="100000" />
       <workItem from="1656174453202" duration="15000" />
-      <workItem from="1656174719173" duration="3023000" />
+      <workItem from="1656174719173" duration="3632000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656173802903</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="to know if it's on">
+      <created>1656178298243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656178298243</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +173,7 @@
     <MESSAGE value="comfort" />
     <MESSAGE value="logic" />
     <MESSAGE value="this" />
-    <option name="LAST_COMMIT_MESSAGE" value="this" />
+    <MESSAGE value="to know if it's on" />
+    <option name="LAST_COMMIT_MESSAGE" value="to know if it's on" />
   </component>
 </project>

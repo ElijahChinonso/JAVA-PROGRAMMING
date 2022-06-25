@@ -21,4 +21,10 @@ class AirconditionerTest {
         Assertions.assertEquals(result, "on");
     }
 
+    @Test
+    public void test_isOff() throws Exception {
+        String result = setup.isOff("off");
+        Assertions.assertEquals(result, "off");
+    }
+
 }
