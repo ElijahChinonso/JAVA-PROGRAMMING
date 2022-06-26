@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="did my first Hello">
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="addition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +55,7 @@
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleMathematicsTest">
+  <component name="RunManager" selected="Application.Scanner">
     <configuration name="HeadphoneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="notePad.HeadphoneTest" />
       <module name="Man" />
@@ -70,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.PenTest" />
+    <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.Scanner" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Scanner" />
         <item itemvalue="JUnit.SimpleMathematicsTest" />
         <item itemvalue="Application.SimpleMathematicsPrint" />
         <item itemvalue="Application.SimpleMathematics" />
         <item itemvalue="Application.HeadphoneTest" />
-        <item itemvalue="Application.PenTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +148,7 @@
       <workItem from="1656174335885" duration="100000" />
       <workItem from="1656174453202" duration="15000" />
       <workItem from="1656174719173" duration="7129000" />
-      <workItem from="1656244801564" duration="7709000" />
+      <workItem from="1656244801564" duration="9568000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -277,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656250229249</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="addition">
+      <created>1656252823055</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1656252823057</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,6 +319,7 @@
     <MESSAGE value="fun" />
     <MESSAGE value="beauty" />
     <MESSAGE value="did my first Hello" />
-    <option name="LAST_COMMIT_MESSAGE" value="did my first Hello" />
+    <MESSAGE value="addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="addition" />
   </component>
 </project>
