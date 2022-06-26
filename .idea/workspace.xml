@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="J Application">
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="Diff method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notePad/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notePad/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DriverTest">
+  <component name="RunManager" selected="Application.PenTest">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="notePad.Cat" />
       <module name="Man" />
@@ -96,18 +95,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirconditionerTest.test_decreaseTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.PenTest" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.*" />
+          <option name="PATTERN" value="notePad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ac" />
-      <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
-      <option name="METHOD_NAME" value="test_decreaseTemp" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PenTest" />
         <item itemvalue="Application.DriverTest" />
         <item itemvalue="Application.EmployeeCompanyTest" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="JUnit.AirconditionerTest.test_decreaseTempIsInValid" />
-        <item itemvalue="JUnit.AirconditionerTest.test_decreaseTemp" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +149,7 @@
       <workItem from="1656174335885" duration="100000" />
       <workItem from="1656174453202" duration="15000" />
       <workItem from="1656174719173" duration="7129000" />
-      <workItem from="1656244801564" duration="2391000" />
+      <workItem from="1656244801564" duration="4486000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -246,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656246750159</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Diff method">
+      <created>1656247379508</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656247379508</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +280,7 @@
     <MESSAGE value="Get this person" />
     <MESSAGE value="My Dog" />
     <MESSAGE value="J Application" />
-    <option name="LAST_COMMIT_MESSAGE" value="J Application" />
+    <MESSAGE value="Diff method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Diff method" />
   </component>
 </project>
