@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="addition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -12,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -31,105 +34,123 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bike" />
       <recent name="notePad" />
       <recent name="ac" />
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Scanner">
-    <configuration name="HeadphoneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.HeadphoneTest" />
+  <component name="RunManager" selected="JUnit.BikeTest.test_isOnIsInvalid">
+    <configuration name="BikeTest.test_decelerateGearFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notePad.*" />
+          <option name="PATTERN" value="bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="bike" />
+      <option name="MAIN_CLASS_NAME" value="bike.BikeTest" />
+      <option name="METHOD_NAME" value="test_decelerateGearFour" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.Scanner" />
+    <configuration name="BikeTest.test_decelerateGearFourInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notePad.*" />
+          <option name="PATTERN" value="bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="bike" />
+      <option name="MAIN_CLASS_NAME" value="bike.BikeTest" />
+      <option name="METHOD_NAME" value="test_decelerateGearFourInvalid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMathematics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.SimpleMathematics" />
+    <configuration name="BikeTest.test_decelerateGearThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notePad.*" />
+          <option name="PATTERN" value="bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="bike" />
+      <option name="MAIN_CLASS_NAME" value="bike.BikeTest" />
+      <option name="METHOD_NAME" value="test_decelerateGearThree" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMathematicsPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.SimpleMathematicsPrint" />
+    <configuration name="BikeTest.test_decelerateGearThreeInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notePad.*" />
+          <option name="PATTERN" value="bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="bike" />
+      <option name="MAIN_CLASS_NAME" value="bike.BikeTest" />
+      <option name="METHOD_NAME" value="test_decelerateGearThreeInvalid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleMathematicsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BikeTest.test_isOnIsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="notePad.*" />
+          <option name="PATTERN" value="bike.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="notePad" />
-      <option name="MAIN_CLASS_NAME" value="notePad.SimpleMathematicsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="bike" />
+      <option name="MAIN_CLASS_NAME" value="bike.BikeTest" />
+      <option name="METHOD_NAME" value="test_isOnIsInvalid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Scanner" />
-        <item itemvalue="JUnit.SimpleMathematicsTest" />
-        <item itemvalue="Application.SimpleMathematicsPrint" />
-        <item itemvalue="Application.SimpleMathematics" />
-        <item itemvalue="Application.HeadphoneTest" />
+        <item itemvalue="JUnit.BikeTest.test_isOnIsInvalid" />
+        <item itemvalue="JUnit.BikeTest.test_decelerateGearFourInvalid" />
+        <item itemvalue="JUnit.BikeTest.test_decelerateGearFour" />
+        <item itemvalue="JUnit.BikeTest.test_decelerateGearThreeInvalid" />
+        <item itemvalue="JUnit.BikeTest.test_decelerateGearThree" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +169,8 @@
       <workItem from="1656174335885" duration="100000" />
       <workItem from="1656174453202" duration="15000" />
       <workItem from="1656174719173" duration="7129000" />
-      <workItem from="1656244801564" duration="9568000" />
+      <workItem from="1656244801564" duration="10684000" />
+      <workItem from="1656256091679" duration="18980000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -283,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656252823057</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="addition">
+      <created>1656254535091</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1656254535091</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
