@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="just made my ac on and off">
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="just structured ny ac">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/Airconditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/Airconditioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +160,8 @@
       <workItem from="1656171800003" duration="2309000" />
       <workItem from="1656174335885" duration="100000" />
       <workItem from="1656174453202" duration="15000" />
-      <workItem from="1656174719173" duration="6737000" />
+      <workItem from="1656174719173" duration="7129000" />
+      <workItem from="1656244801564" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656178994903</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="just structured ny ac">
+      <created>1656182184020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1656182184020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +244,7 @@
     <MESSAGE value="this" />
     <MESSAGE value="to know if it's on" />
     <MESSAGE value="just made my ac on and off" />
-    <option name="LAST_COMMIT_MESSAGE" value="just made my ac on and off" />
+    <MESSAGE value="just structured ny ac" />
+    <option name="LAST_COMMIT_MESSAGE" value="just structured ny ac" />
   </component>
 </project>
