@@ -53,9 +53,22 @@
       <recent name="calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeCompanyTest">
+  <component name="RunManager" selected="Application.DriverTest">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="notePad.Cat" />
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notePad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DriverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.DriverTest" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
@@ -112,29 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirconditionerTest.test_decreaseTempIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac" />
-      <option name="MAIN_CLASS_NAME" value="ac.AirconditionerTest" />
-      <option name="METHOD_NAME" value="test_decreaseTempIsValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DriverTest" />
         <item itemvalue="Application.EmployeeCompanyTest" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="JUnit.AirconditionerTest.test_decreaseTempIsInValid" />
         <item itemvalue="JUnit.AirconditionerTest.test_decreaseTemp" />
-        <item itemvalue="JUnit.AirconditionerTest.test_decreaseTempIsValid" />
       </list>
     </recent_temporary>
   </component>
