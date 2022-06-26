@@ -7,7 +7,6 @@ public class Calculator {
         System.out.println("The result is:" + sum);
         return sum;
     }
-    ///
 
     public int subTwoNumbers(int fNumber, int sNumber){
         int sub = fNumber - sNumber;
