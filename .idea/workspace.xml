@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="type pen">
-      <change beforePath="$PROJECT_DIR$/src/notePad/HeadphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notePad/HeadphoneTest.java" afterDir="false" />
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="fun">
+      <change beforePath="$PROJECT_DIR$/src/notePad/Rainbow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notePad/Rainbow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,7 @@
       <workItem from="1656174335885" duration="100000" />
       <workItem from="1656174453202" duration="15000" />
       <workItem from="1656174719173" duration="7129000" />
-      <workItem from="1656244801564" duration="4887000" />
+      <workItem from="1656244801564" duration="5206000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656249380345</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fun">
+      <created>1656249859837</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1656249859837</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +293,7 @@
     <MESSAGE value="J Application" />
     <MESSAGE value="Diff method" />
     <MESSAGE value="type pen" />
-    <option name="LAST_COMMIT_MESSAGE" value="type pen" />
+    <MESSAGE value="fun" />
+    <option name="LAST_COMMIT_MESSAGE" value="fun" />
   </component>
 </project>
