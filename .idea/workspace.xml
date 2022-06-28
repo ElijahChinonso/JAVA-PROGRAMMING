@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="A game">
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="An Interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bike/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bike/Bike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notePad/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notePad/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ac/Airconditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/AirConditioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehicle/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ac/AirConditionerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vehicle/MotorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/vehicle/MotorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,88 +62,88 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="oop" />
       <recent name="vehicle" />
+      <recent name="oop" />
       <recent name="bike" />
       <recent name="notePad" />
       <recent name="ac" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChildTest">
-    <configuration name="ChildTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AirConditionerTest">
+    <configuration name="AirConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.*" />
+          <option name="PATTERN" value="ac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop" />
-      <option name="MAIN_CLASS_NAME" value="oop.ChildTest" />
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChildTest.test_name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirConditionerTest.test_decreaseTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.*" />
+          <option name="PATTERN" value="ac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="oop" />
-      <option name="MAIN_CLASS_NAME" value="oop.ChildTest" />
-      <option name="METHOD_NAME" value="test_name" />
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
+      <option name="METHOD_NAME" value="test_decreaseTemp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorTest.test_getAndSetBrandName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirConditionerTest.test_decreaseTempBelow16IsInValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vehicle.*" />
+          <option name="PATTERN" value="ac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="MAIN_CLASS_NAME" value="vehicle.MotorTest" />
-      <option name="METHOD_NAME" value="test_getAndSetBrandName" />
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
+      <option name="METHOD_NAME" value="test_decreaseTempBelow16IsInValid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorTest.test_getAndSetColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirConditionerTest.test_increaseTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vehicle.*" />
+          <option name="PATTERN" value="ac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="MAIN_CLASS_NAME" value="vehicle.MotorTest" />
-      <option name="METHOD_NAME" value="test_getAndSetColor" />
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
+      <option name="METHOD_NAME" value="test_increaseTemp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorTest.test_getAndSetPlateNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AirConditionerTest.test_increaseTempAbove30IsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vehicle.*" />
+          <option name="PATTERN" value="ac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="MAIN_CLASS_NAME" value="vehicle.MotorTest" />
-      <option name="METHOD_NAME" value="test_getAndSetPlateNumber" />
+      <option name="PACKAGE_NAME" value="ac" />
+      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
+      <option name="METHOD_NAME" value="test_increaseTempAbove30IsInvalid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ChildTest" />
-        <item itemvalue="JUnit.ChildTest.test_name" />
-        <item itemvalue="JUnit.MotorTest.test_getAndSetColor" />
-        <item itemvalue="JUnit.MotorTest.test_getAndSetPlateNumber" />
-        <item itemvalue="JUnit.MotorTest.test_getAndSetBrandName" />
+        <item itemvalue="JUnit.AirConditionerTest" />
+        <item itemvalue="JUnit.AirConditionerTest.test_decreaseTempBelow16IsInValid" />
+        <item itemvalue="JUnit.AirConditionerTest.test_decreaseTemp" />
+        <item itemvalue="JUnit.AirConditionerTest.test_increaseTempAbove30IsInvalid" />
+        <item itemvalue="JUnit.AirConditionerTest.test_increaseTemp" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +180,16 @@
       <workItem from="1656319087134" duration="8774000" />
       <workItem from="1656349044588" duration="61000" />
       <workItem from="1656349305989" duration="257000" />
-      <workItem from="1656366796144" duration="7615000" />
+      <workItem from="1656366796144" duration="11512000" />
+      <workItem from="1656403349038" duration="76000" />
+      <workItem from="1656413043238" duration="5659000" />
+      <workItem from="1656431777438" duration="2214000" />
+      <workItem from="1656434090672" duration="37000" />
+      <workItem from="1656434180808" duration="37000" />
+      <workItem from="1656434265868" duration="58000" />
+      <workItem from="1656434348879" duration="81000" />
+      <workItem from="1656434460481" duration="1345000" />
+      <workItem from="1656435901240" duration="6314000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -335,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656338332043</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="An Interface">
+      <created>1656374615194</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656374615194</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +391,7 @@
     <MESSAGE value="addition" />
     <MESSAGE value="finally did it" />
     <MESSAGE value="A game" />
-    <option name="LAST_COMMIT_MESSAGE" value="A game" />
+    <MESSAGE value="An Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="An Interface" />
   </component>
 </project>
