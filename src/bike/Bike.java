@@ -5,7 +5,8 @@ public class Bike {
     public String isOn(String on) throws Exception {
         if (on == "on") {
             System.out.println("Bike is on");
-        } else {
+        }
+        else {
             throw new Exception("Enter the right on");
         }
         return on;

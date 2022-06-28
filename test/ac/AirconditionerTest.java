@@ -30,8 +30,8 @@ class AirconditionerTest {
 
     @Test
     public void test_increaseTemp() throws Exception{
-        int result = setup.increaseTemp(25);
-        Assertions.assertEquals(result, 25);
+        int result = setup.increaseTemp(30);
+        Assertions.assertEquals(result, 30);
     }
 
 

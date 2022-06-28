@@ -23,7 +23,7 @@ public class Scanner {
         System.out.println(sum);
     }
 
-    private int nextInt() {
+    public int nextInt() {
         return 0;
     }
 
