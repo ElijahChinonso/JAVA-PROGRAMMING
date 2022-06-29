@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="An Interface">
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="gave me though time">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ac/Airconditioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ac/AirConditioner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vehicle/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ac/AirconditionerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ac/AirConditionerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/vehicle/MotorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/vehicle/MotorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vehicle/ElijahOilAndGas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vehicle/ElijahOilAndGas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/vehicle/ElijahOilAndGasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/vehicle/ElijahOilAndGasTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,16 +19,22 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ternaryOperator/Math.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2B4gRfY8HZT1fGXhVjrKY6ZRJgi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -54,7 +59,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -69,81 +75,72 @@
       <recent name="ac" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AirConditionerTest">
-    <configuration name="AirConditionerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ElijahOilAndGasTest">
+    <configuration name="Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.Arithmetic" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.*" />
+          <option name="PATTERN" value="notePad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ac" />
-      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.CalculationTest" />
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notePad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ternaryOperator.Math" />
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ternaryOperator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElijahOilAndGasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vehicle" />
+      <option name="MAIN_CLASS_NAME" value="vehicle.ElijahOilAndGasTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AirConditionerTest.test_decreaseTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElijahOilAndGasTest.test_setAndGetDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ac.*" />
+          <option name="PATTERN" value="vehicle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ac" />
-      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
-      <option name="METHOD_NAME" value="test_decreaseTemp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AirConditionerTest.test_decreaseTempBelow16IsInValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac" />
-      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
-      <option name="METHOD_NAME" value="test_decreaseTempBelow16IsInValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AirConditionerTest.test_increaseTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac" />
-      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
-      <option name="METHOD_NAME" value="test_increaseTemp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AirConditionerTest.test_increaseTempAbove30IsInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ac.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ac" />
-      <option name="MAIN_CLASS_NAME" value="ac.AirConditionerTest" />
-      <option name="METHOD_NAME" value="test_increaseTempAbove30IsInvalid" />
+      <option name="PACKAGE_NAME" value="vehicle" />
+      <option name="MAIN_CLASS_NAME" value="vehicle.ElijahOilAndGasTest" />
+      <option name="METHOD_NAME" value="test_setAndGetDiscount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AirConditionerTest" />
-        <item itemvalue="JUnit.AirConditionerTest.test_decreaseTempBelow16IsInValid" />
-        <item itemvalue="JUnit.AirConditionerTest.test_decreaseTemp" />
-        <item itemvalue="JUnit.AirConditionerTest.test_increaseTempAbove30IsInvalid" />
-        <item itemvalue="JUnit.AirConditionerTest.test_increaseTemp" />
+        <item itemvalue="JUnit.ElijahOilAndGasTest" />
+        <item itemvalue="JUnit.ElijahOilAndGasTest.test_setAndGetDiscount" />
+        <item itemvalue="Application.Math" />
+        <item itemvalue="Application.Arithmetic" />
+        <item itemvalue="Application.CalculationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +186,12 @@
       <workItem from="1656434265868" duration="58000" />
       <workItem from="1656434348879" duration="81000" />
       <workItem from="1656434460481" duration="1345000" />
-      <workItem from="1656435901240" duration="6314000" />
+      <workItem from="1656435901240" duration="6539000" />
+      <workItem from="1656450318411" duration="1534000" />
+      <workItem from="1656459556050" duration="2002000" />
+      <workItem from="1656499728808" duration="14321000" />
+      <workItem from="1656533764100" duration="197000" />
+      <workItem from="1656540951686" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -352,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656374615194</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="gave me though time">
+      <created>1656442332260</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1656442332260</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +401,17 @@
     <MESSAGE value="finally did it" />
     <MESSAGE value="A game" />
     <MESSAGE value="An Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="An Interface" />
+    <MESSAGE value="gave me though time" />
+    <option name="LAST_COMMIT_MESSAGE" value="gave me though time" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -5,7 +5,10 @@ public class ElijahOilAndGas {
     private String name;
     private String location;
     private String color;
-    private double price;
+    private int perLiter = 200;
+    private double discount;
+
+
 
     public ElijahOilAndGas() {}
 
@@ -25,9 +28,11 @@ public class ElijahOilAndGas {
         this.color = color;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setPricePerLiter(int perLiter) {
+        this.perLiter = perLiter;
     }
+
+    public  void setDiscount(double num){this.discount = num;}
 
 
     public String getName(){
@@ -42,8 +47,12 @@ public class ElijahOilAndGas {
         return color;
     }
 
-    public double getPrice(){
-        return price;
+    public int getPerLiter(){
+        return perLiter;
+    }
+
+    public double getDiscount(){
+        return discount;
     }
 
 
