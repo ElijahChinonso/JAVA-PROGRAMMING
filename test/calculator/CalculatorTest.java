@@ -2,8 +2,6 @@ package calculator;
 
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 public class CalculatorTest {
     //Instanciation of Calculator class
     //Using the Calculator as an Instance variable

@@ -23,7 +23,7 @@ public class Motor {
 
     public void setPlateNumber(int num) {
         if (num == num) {
-            System.out.println("Valid Number");
+            System.out.println("Valid Plate Number");
         }
         this.plateNumber = num;
     }
@@ -34,7 +34,7 @@ public class Motor {
 
     public void setColor(String name) {
         if (name == "name") {
-            System.out.println("Valid Name");
+            System.out.println("Blue");
         }
         this.color = name;
     }
@@ -54,32 +54,75 @@ public class Motor {
         return brake;
     }
 
-    public int gearOfCar(int gNum, int speedLimit) throws Exception {
-        if (gNum == 1) {
+    public int gearOne(int gear, int speedLimit) throws Exception{
+        if (gear == 1) {
             System.out.println("you are on gear 1");
         }
         else {
-            if (gNum == 2) {
+            throw new Exception("Not on gear 1");
+        }
+            if(speedLimit >= 0 && speedLimit <= 10){
+            speedLimit++;
+            }
+
+            if(speedLimit >= 11 && speedLimit <= 20){
+                speedLimit+=2;
+                System.out.println("You are now on gear 2");
+            }
+
+            if(speedLimit >= 21 && speedLimit <= 30){
+                speedLimit+=3;
+                System.out.println("You are now on 3");
+            }
+        return speedLimit;
+    }
+
+    public int gearTwo(int gear, int speedLimit) throws Exception{
+            if (gear == 2) {
                 System.out.println("You are on gear 2");
             }
             else {
-                if (gNum == 3) {
+                throw new Exception("Not on gear 2");
+            }
+            if (speedLimit >= 11 && speedLimit <= 20){
+                speedLimit+=2;
+            }
+
+            if(speedLimit >= 0 && speedLimit <= 10){
+                speedLimit++;
+                System.out.println("You are now on gear 1");
+            }
+
+            if(speedLimit >= 21 && speedLimit <= 30){
+                speedLimit+=3;
+                System.out.println("You are now on 3");
+            }
+        return speedLimit;
+    }
+
+    public int gearThree(int gear, int speedLimit) throws Exception{
+                if (gear == 3) {
                     System.out.println("You are on gear 3");
                 }
-
-                if(speedLimit >= 0 && speedLimit <= 10){
-                    System.out.println("You are on gear 1");
-                }
-
-                if(speedLimit >= 11 && speedLimit <= 20){
-                    System.out.println("you are now on gear 2");
+                else {
+                    throw new Exception("Not on gear 3");
                 }
 
                 if(speedLimit >= 21 && speedLimit <= 30){
-                    System.out.println("You are now on gear 3");
+                    speedLimit+=3;
                 }
-            }
-        }
+
+                if(speedLimit >= 0 && speedLimit <= 10){
+                    speedLimit++;
+                    System.out.println("You are now on gear 1");
+                }
+
+                if (speedLimit >= 11 && speedLimit <= 20){
+                    speedLimit+=2;
+                    System.out.println("You are now on 2");
+                }
         return speedLimit;
     }
-}
+        }
+
+

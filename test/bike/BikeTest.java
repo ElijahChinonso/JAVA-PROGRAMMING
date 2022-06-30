@@ -19,8 +19,8 @@ class BikeTest {
 
     @Test
     public void test_isOnIsInvalid() throws Exception{
-        String result = rider.isOn("off");
-        Assertions.assertEquals(result,"off");
+        String result = rider.isOn("on");
+        Assertions.assertEquals(result,"on");
     }
 
 
@@ -32,8 +32,8 @@ class BikeTest {
 
     @Test
     public void test_isOffIsInvalid() throws Exception{
-        String result = rider.isOff("on");
-        Assertions.assertEquals(result,"on");
+        String result = rider.isOff("off");
+        Assertions.assertEquals(result,"off");
     }
 
 

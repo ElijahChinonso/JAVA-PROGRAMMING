@@ -1,4 +1,4 @@
-package oop;
+package oopInterface;
 
 public interface Parent {
 

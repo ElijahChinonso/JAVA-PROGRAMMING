@@ -33,8 +33,8 @@ class MotorTest {
     @Test
     public void test_getAndSetColor(){
         driver.setColor("Blue");
-        String getColor = driver.getColor();
-        Assertions.assertEquals(getColor, "Blue");
+        String result = driver.getColor();
+        Assertions.assertNotNull(result);
     }
 
     @Test
@@ -46,8 +46,20 @@ class MotorTest {
 
 
     @Test
-    public void gearOfCar() throws Exception {
-        int result = driver.gearOfCar(3,21);
-        Assertions.assertEquals(result,21);
+    public void test_gearOne() throws Exception {
+        int result = driver.gearOne(1,14);
+        Assertions.assertEquals(result,16);
+    }
+
+    @Test
+    public void test_gearTwo() throws Exception{
+        int result = driver.gearTwo(2,5);
+        Assertions.assertEquals(result,6);
+    }
+
+    @Test
+    public void test_gearThree() throws Exception{
+        int result = driver.gearThree(3,25);
+        Assertions.assertEquals(result,28);
     }
 }
