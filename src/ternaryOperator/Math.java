@@ -5,12 +5,13 @@ import java.util.Scanner;
 public class Math {
 
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
-    Scanner input = new Scanner(System.in);
-    System.out.println("Enter first Number: ");
-    boolean firstInteger = input.nextBoolean();
+        int age = 0;
+       // System.out.print();
 
-        String  result = (firstInteger = true) ? "Correct" : "Wrong";
-        System.out.println("You Entered the " + result + " the number.");
+
+
+
     }
 }

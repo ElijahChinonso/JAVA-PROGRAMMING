@@ -6,8 +6,8 @@ public class ElijahOilAndGas {
     private String location;
     private String color;
     private int perLiter = 200;
-    private double discount;
-
+    private double discount = 10;
+    private int calculateDiscount;
 
 
     public ElijahOilAndGas() {}
@@ -28,11 +28,38 @@ public class ElijahOilAndGas {
         this.color = color;
     }
 
-    public void setPricePerLiter(int perLiter) {
-        this.perLiter = perLiter;
+    public void setPerLiter(int price) {
+        if (price == price){
+            System.out.println("Exact price");
+        }
+        else {
+            System.out.println("Invalid");
+        }
+        this.perLiter = price;
     }
 
-    public  void setDiscount(double num){this.discount = num;}
+    public  void setDiscount(double amount) {
+        if (amount == amount){
+            System.out.println("Discount added");
+        }
+        else {
+            System.out.println("No Discount");
+        }
+        this.discount = amount;
+    }
+
+
+    public void calculateTheDiscount(int percent){
+        if (percent == percent){
+            System.out.println("Actual discount");
+        }
+        else {
+            System.out.println("Wrong discount");
+        }
+        this.calculateDiscount =percent;
+    }
+
+
 
 
     public String getName(){
@@ -55,5 +82,8 @@ public class ElijahOilAndGas {
         return discount;
     }
 
+    public int calculateInDiscount(int percent){
+        return percent * perLiter / 100;
+    }
 
 }

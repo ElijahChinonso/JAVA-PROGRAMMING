@@ -40,9 +40,9 @@ class ElijahOilAndGasTest {
 
     @Test
     public void setAndGetPricePerLiter(){
-        fuelStation.setPricePerLiter(200);
+        fuelStation.setPerLiter(200);
         int result = fuelStation.getPerLiter();
-        Assertions.assertNotNull(result);
+        Assertions.assertEquals(result, 200);
     }
 
 
@@ -50,6 +50,14 @@ class ElijahOilAndGasTest {
     public void test_setAndGetDiscount(){
         fuelStation.setDiscount(10);
         double result = fuelStation.getDiscount();
-        Assertions.assertNotNull(result);
+        Assertions.assertEquals(result, 10);
     }
+
+    @Test
+    public void test_calculateDiscount(){
+        fuelStation.calculateTheDiscount(10);
+        int result = fuelStation.calculateInDiscount(10);
+        Assertions.assertEquals( result,20);
+    }
+
 }

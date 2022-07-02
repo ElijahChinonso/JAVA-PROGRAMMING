@@ -11,7 +11,7 @@ public class GuessGame {
         int guessNum1 = input.nextInt();
 
         if (guessNum1 == correctNum) {
-            System.out.println("Correct Guess Number");
+            System.out.println("Correct Number");
         }
         else {
             System.out.println("Try again");
