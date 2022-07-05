@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="multiply">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/Creative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopsAndSwitch/Creative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/Do.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopsAndSwitch/Do.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/For.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopsAndSwitch/For.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/TheX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopsAndSwitch/TheX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/While.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopsAndSwitch/While.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/While2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loopsAndSwitch/While2.java" afterDir="false" />
-    </list>
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="right angle triangle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,20 +73,7 @@
       <recent name="notePad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Number">
-    <configuration name="Creative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loopsAndSwitch.Creative" />
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="loopsAndSwitch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Sophie">
     <configuration name="Nokia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="loopsAndSwitch.Nokia" />
       <module name="Man" />
@@ -114,6 +93,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="loopsAndSwitch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sophie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.Sophie" />
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="notePad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sophie" />
         <item itemvalue="Application.Number" />
         <item itemvalue="Application.Nokia" />
         <item itemvalue="Application.TheX" />
         <item itemvalue="Application.TheNumbers" />
-        <item itemvalue="Application.Creative" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +197,7 @@
       <workItem from="1656919955578" duration="3586000" />
       <workItem from="1656931216254" duration="19640000" />
       <workItem from="1656975496540" duration="69000" />
-      <workItem from="1657009839915" duration="779000" />
+      <workItem from="1657009839915" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -410,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656802880026</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="right angle triangle">
+      <created>1657010691967</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1657010691967</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="logic" />
     <MESSAGE value="this" />
     <MESSAGE value="to know if it's on" />
     <MESSAGE value="just made my ac on and off" />
@@ -453,7 +451,8 @@
     <MESSAGE value="An example of 'for loop'" />
     <MESSAGE value="An example of 'do while'" />
     <MESSAGE value="multiply" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiply" />
+    <MESSAGE value="right angle triangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="right angle triangle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
