@@ -1,4 +1,4 @@
-package loops;
+package loopsAndSwitch;
 
 public class Creative {
     public static void main(String[] args) {

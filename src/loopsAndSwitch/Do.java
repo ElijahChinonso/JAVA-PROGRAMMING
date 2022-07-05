@@ -1,13 +1,11 @@
-package loops;
+package loopsAndSwitch;
 
-public class While {
+public class Do {
     public static void main(String[] args) {
-        System.out.println("while l");
         int counter = 0;
-        while (counter < 5) {
+        do {
             System.out.println(counter);
             counter++;
-        }
+        }while (counter <= 5);
     }
 }
-
