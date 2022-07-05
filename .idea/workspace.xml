@@ -73,7 +73,7 @@
       <recent name="notePad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sophie">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Nokia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="loopsAndSwitch.Nokia" />
       <module name="Man" />
@@ -100,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sophie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.Sophie" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.Solution" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loopsAndSwitch.TheNumbers" />
+    <configuration name="Sophie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.Sophie" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loopsAndSwitch.*" />
+          <option name="PATTERN" value="notePad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Sophie" />
         <item itemvalue="Application.Number" />
         <item itemvalue="Application.Nokia" />
         <item itemvalue="Application.TheX" />
-        <item itemvalue="Application.TheNumbers" />
       </list>
     </recent_temporary>
   </component>
