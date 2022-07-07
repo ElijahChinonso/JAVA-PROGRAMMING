@@ -1,4 +1,4 @@
-package calculator;
+package calculatorAndMethDeeperLooks;
 
 import org.junit.jupiter.api.*;
 
