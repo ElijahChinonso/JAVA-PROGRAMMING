@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="Insurance">
+    <list default="true" id="d9aa523c-2415-4d78-a7de-f705eb53dfae" name="Changes" comment="maximum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculatorAndMethDeeperLooks/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/calculator/Utme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculatorAndMethDeeperLooks/Utme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ternaryOperator/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ternaryAndLogicalOperator/Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/calculator/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/calculatorAndMethDeeperLooks/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/calculator/UtmeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/calculatorAndMethDeeperLooks/UtmeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,20 +75,7 @@
       <recent name="notePad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomNumbers">
-    <configuration name="FindMaximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculatorAndMethDeeperLooks.FindMaximum" />
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="calculatorAndMethDeeperLooks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SumOfNumbers">
     <configuration name="FindProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="loopsAndSwitch.FindProduct" />
       <module name="Man" />
@@ -146,12 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SumOfNumbers" />
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfNumbers" />
+        <item itemvalue="Application.Gabi" />
         <item itemvalue="Application.RandomNumbers" />
         <item itemvalue="Application.RandomNum2" />
         <item itemvalue="Application.FindProduct" />
-        <item itemvalue="Application.Gabi" />
       </list>
     </recent_temporary>
   </component>
@@ -208,6 +204,8 @@
       <workItem from="1657086659298" duration="6049000" />
       <workItem from="1657119989754" duration="73000" />
       <workItem from="1657141846001" duration="10875000" />
+      <workItem from="1657196208973" duration="1329000" />
+      <workItem from="1657206142853" duration="436000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -426,7 +424,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657120037445</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="random num">
+      <created>1657196325487</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1657196325487</updated>
+    </task>
+    <task id="LOCAL-00033" summary="maximum">
+      <created>1657196483071</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1657196483071</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,8 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="to know if it's on" />
-    <MESSAGE value="just made my ac on and off" />
     <MESSAGE value="just structured ny ac" />
     <MESSAGE value="process to purchase" />
     <MESSAGE value="My cat" />
@@ -469,7 +479,9 @@
     <MESSAGE value="multiply" />
     <MESSAGE value="right angle triangle" />
     <MESSAGE value="Insurance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insurance" />
+    <MESSAGE value="random num" />
+    <MESSAGE value="maximum" />
+    <option name="LAST_COMMIT_MESSAGE" value="maximum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
