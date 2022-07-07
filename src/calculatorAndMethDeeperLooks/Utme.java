@@ -1,4 +1,4 @@
-package calculator;
+package calculatorAndMethDeeperLooks;
 
 public class Utme {
     private int price = 0;
