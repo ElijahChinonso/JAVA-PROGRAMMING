@@ -8,7 +8,6 @@ public class Math {
         Scanner input = new Scanner(System.in);
 
         int age = 0;
-       // System.out.print();
 
 
 
