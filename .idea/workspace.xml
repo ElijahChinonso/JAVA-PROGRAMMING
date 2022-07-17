@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59124bbe-d68a-4d69-a1d1-df376c103c42" name="Changes" comment="right angle triangle">
+    <list default="true" id="59124bbe-d68a-4d69-a1d1-df376c103c42" name="Changes" comment="1 D">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/SumOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayAndArrayList/SumOfNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ternaryAndLogicalOperator/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ternaryAndLogicalOperator/Math.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <recent name="notePad" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Numbers">
+  <component name="RunManager" selected="Application.SevenSegment">
     <configuration name="MyersBriggs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayAndArrayList.MyersBriggs" />
       <module name="Man" />
@@ -105,21 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nokia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loopsAndSwitch.Nokia" />
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="loopsAndSwitch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayAndArrayList.Numbers" />
+    <configuration name="MyersBriggs3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayAndArrayList.MyersBriggs3" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
@@ -131,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="calculatorAndMethDeeperLooks.SimpleInt" />
+    <configuration name="NAME_EMAIL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notePad.NAME_EMAIL" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculatorAndMethDeeperLooks.*" />
+          <option name="PATTERN" value="notePad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SevenSegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayAndArrayList.SevenSegment" />
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayAndArrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Numbers" />
+        <item itemvalue="Application.SevenSegment" />
+        <item itemvalue="Application.MyersBriggs3" />
+        <item itemvalue="Application.NAME_EMAIL" />
         <item itemvalue="Application.MyersBriggs2" />
         <item itemvalue="Application.MyersBriggs" />
-        <item itemvalue="Application.Nokia" />
-        <item itemvalue="Application.SimpleInt" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +214,10 @@
       <workItem from="1657695905225" duration="1194000" />
       <workItem from="1657716887532" duration="1702000" />
       <workItem from="1657734712508" duration="4640000" />
-      <workItem from="1657780353946" duration="10310000" />
+      <workItem from="1657780353946" duration="10557000" />
+      <workItem from="1657793734441" duration="18719000" />
+      <workItem from="1657886396817" duration="19605000" />
+      <workItem from="1658047834150" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -428,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657010691967</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="1 D">
+      <created>1657792405096</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1657792405096</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +454,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="this" />
     <MESSAGE value="to know if it's on" />
     <MESSAGE value="just made my ac on and off" />
     <MESSAGE value="just structured ny ac" />
@@ -471,7 +478,8 @@
     <MESSAGE value="An example of 'do while'" />
     <MESSAGE value="multiply" />
     <MESSAGE value="right angle triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="right angle triangle" />
+    <MESSAGE value="1 D" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 D" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
