@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59124bbe-d68a-4d69-a1d1-df376c103c42" name="Changes" comment="1 D">
+    <list default="true" id="59124bbe-d68a-4d69-a1d1-df376c103c42" name="Changes" comment="all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayAndArrayList/MyersBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayAndArrayList/MyersBriggs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayAndArrayList/SevenSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayAndArrayList/SevenSegment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oopInterface/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopInterface/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ternaryAndLogicalOperator/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ternaryAndLogicalOperator/Operator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -43,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -52,12 +58,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -69,59 +76,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="vehicle" />
-      <recent name="calculator" />
-      <recent name="oop" />
-      <recent name="bike" />
-      <recent name="notePad" />
+      <recent name="dataStructure" />
+      <recent name="CompositionInterface" />
+      <recent name="calculatorAndMethDeeperLooks" />
+      <recent name="myBank" />
+      <recent name="NewFlightReservation" />
     </key>
   </component>
   <component name="RunManager" selected="Application.SevenSegment">
-    <configuration name="MyersBriggs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayAndArrayList.MyersBriggs" />
+    <configuration name="House" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.House" />
       <module name="Man" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayAndArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyersBriggs2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayAndArrayList.MyersBriggs2" />
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayAndArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyersBriggs3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayAndArrayList.MyersBriggs3" />
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayAndArrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NAME_EMAIL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notePad.NAME_EMAIL" />
-      <module name="Man" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="notePad.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,13 +110,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.ArrayListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.addXYGetXYTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.ArrayListTest" />
+      <option name="METHOD_NAME" value="addXYGetXYTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListTest.addXYremoveYFindIndexByIsNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Man" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="dataStructure.ArrayListTest" />
+      <option name="METHOD_NAME" value="addXYremoveYFindIndexByIsNullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SevenSegment" />
-        <item itemvalue="Application.MyersBriggs3" />
-        <item itemvalue="Application.NAME_EMAIL" />
-        <item itemvalue="Application.MyersBriggs2" />
-        <item itemvalue="Application.MyersBriggs" />
+        <item itemvalue="Application.House" />
+        <item itemvalue="JUnit.ArrayListTest" />
+        <item itemvalue="JUnit.ArrayListTest.addXYremoveYFindIndexByIsNullTest" />
+        <item itemvalue="JUnit.ArrayListTest.addXYGetXYTest" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +232,31 @@
       <workItem from="1657780353946" duration="10557000" />
       <workItem from="1657793734441" duration="18719000" />
       <workItem from="1657886396817" duration="19605000" />
-      <workItem from="1658047834150" duration="1131000" />
+      <workItem from="1658047834150" duration="1330000" />
+      <workItem from="1658079788593" duration="5962000" />
+      <workItem from="1658094450580" duration="1800000" />
+      <workItem from="1658126267305" duration="3013000" />
+      <workItem from="1658137896045" duration="7595000" />
+      <workItem from="1658211405554" duration="17520000" />
+      <workItem from="1658268758335" duration="979000" />
+      <workItem from="1658295236437" duration="10994000" />
+      <workItem from="1658352011830" duration="19672000" />
+      <workItem from="1658525409382" duration="16114000" />
+      <workItem from="1658589189910" duration="7243000" />
+      <workItem from="1658679474552" duration="19101000" />
+      <workItem from="1658781485355" duration="27755000" />
+      <workItem from="1658918133788" duration="1224000" />
+      <workItem from="1659601170176" duration="24357000" />
+      <workItem from="1659807545097" duration="53706000" />
+      <workItem from="1659975618905" duration="80000" />
+      <workItem from="1659983967167" duration="3922000" />
+      <workItem from="1660108773628" duration="17821000" />
+      <workItem from="1660212121354" duration="1459000" />
+      <workItem from="1660223060260" duration="296000" />
+      <workItem from="1660223804961" duration="1074000" />
+      <workItem from="1660293516542" duration="81000" />
+      <workItem from="1660424966184" duration="2094000" />
+      <workItem from="1660427561680" duration="1809000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -436,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657792405096</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="all">
+      <created>1658052936600</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1658052936600</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="to know if it's on" />
     <MESSAGE value="just made my ac on and off" />
     <MESSAGE value="just structured ny ac" />
     <MESSAGE value="process to purchase" />
@@ -479,7 +524,8 @@
     <MESSAGE value="multiply" />
     <MESSAGE value="right angle triangle" />
     <MESSAGE value="1 D" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 D" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,6 +537,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="3" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

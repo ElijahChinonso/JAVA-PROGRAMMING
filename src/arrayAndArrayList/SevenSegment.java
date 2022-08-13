@@ -4,56 +4,56 @@ import java.util.Scanner;
 
 public class SevenSegment {
     public static void main(String[] args)throws InterruptedException, IllegalAccessException {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter binary:");
-        int choice = input.nextInt();
-        String mask = String.valueOf(choice);
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Enter binary:");
+//        int choice = input.nextInt();
+//        String mask = String.valueOf(choice);
 
-        fig(mask);
+        fig("1111110");
         fish();
     }
 
     private static final int[][] cap = new int[5][4];
 
-    static  void sideA()throws InterruptedException{
+    static  void sideA() {
         cap[0][0] = 1;
         cap[0][1] = 1;
         cap[0][2] = 1;
         cap[0][3] = 1;
     }
 
-    static  void sideB()throws InterruptedException{
+    static  void sideB() {
         cap[0][3] = 1;
         cap[1][3] = 1;
         cap[2][3] = 1;
     }
 
-    static  void sideC()throws InterruptedException{
+    static  void sideC() {
         cap[2][3] = 1;
         cap[3][3] = 1;
         cap[4][3] = 1;
     }
 
-    static  void sideD()throws InterruptedException{
+    static  void sideD() {
         cap[4][0] = 1;
         cap[4][1] = 1;
         cap[4][2] = 1;
         cap[4][3] = 1;
     }
 
-    static  void sideE()throws InterruptedException{
+    static  void sideE() {
         cap[2][0] = 1;
         cap[3][0] = 1;
         cap[4][0] = 1;
     }
 
-    static  void sideF()throws InterruptedException{
+    static  void sideF() {
         cap[0][0] = 1;
         cap[1][0] = 1;
         cap[2][0] = 1;
     }
 
-    static  void sideG()throws InterruptedException{
+    static  void sideG() {
         cap[2][0] = 1;
         cap[2][1] = 1;
         cap[2][2] = 1;
@@ -75,7 +75,7 @@ public class SevenSegment {
         }
     }
 
-    static void fig(String num)throws IllegalAccessError, InterruptedException, IllegalAccessException{
+    static void fig(String num)throws IllegalAccessError, IllegalAccessException{
         if(num.length() > 8){
             num = num.substring(0, 8);
         }

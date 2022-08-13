@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MyersBriggs {
-    private  static Scanner input = new Scanner(System.in);
+    static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         ArrayList<String> option = new ArrayList<>();
+
+
 
 
             System.out.printf("(1) A. expend energy, enjoy groups B. conserve energy, enjoy one on one%n");
@@ -233,7 +235,22 @@ public class MyersBriggs {
         }
         System.out.println();
     }
+    public static void merge(){
+        String response;
 
+        int[][] merge = new int[5][4];
+        merge[0][0] = 0;
+        merge[0][1] = 0;
+        merge[1][0] = 0;
+        merge[1][1] = 0;
+        merge[2][0] = 0;
+        merge[2][1] = 0;
+        merge[3][0] = 0;
+        merge[3][1] = 0;
+        merge[4][0] = 0;
+        merge[4][1] = 0;
+
+    }
 }
 
 
