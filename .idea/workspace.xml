@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59124bbe-d68a-4d69-a1d1-df376c103c42" name="Changes" comment="all">
+    <list default="true" id="59124bbe-d68a-4d69-a1d1-df376c103c42" name="Changes" comment="stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayAndArrayList/MyersBriggs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayAndArrayList/MyersBriggs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrayAndArrayList/SevenSegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayAndArrayList/SevenSegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oopInterface/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oopInterface/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ternaryAndLogicalOperator/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ternaryAndLogicalOperator/Operator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +79,7 @@
       <recent name="NewFlightReservation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SevenSegment">
+  <component name="RunManager" selected="Application.House">
     <configuration name="House" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.House" />
       <module name="Man" />
@@ -159,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SevenSegment" />
         <item itemvalue="Application.House" />
+        <item itemvalue="Application.SevenSegment" />
         <item itemvalue="JUnit.ArrayListTest" />
         <item itemvalue="JUnit.ArrayListTest.addXYremoveYFindIndexByIsNullTest" />
         <item itemvalue="JUnit.ArrayListTest.addXYGetXYTest" />
@@ -256,7 +252,7 @@
       <workItem from="1660223804961" duration="1074000" />
       <workItem from="1660293516542" duration="81000" />
       <workItem from="1660424966184" duration="2094000" />
-      <workItem from="1660427561680" duration="1809000" />
+      <workItem from="1660427561680" duration="3338000" />
     </task>
     <task id="LOCAL-00001" summary="i just wrote it">
       <created>1656172080076</created>
@@ -482,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658052936600</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="stack">
+      <created>1660429964635</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1660429964635</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="just made my ac on and off" />
     <MESSAGE value="just structured ny ac" />
     <MESSAGE value="process to purchase" />
     <MESSAGE value="My cat" />
@@ -525,7 +527,8 @@
     <MESSAGE value="right angle triangle" />
     <MESSAGE value="1 D" />
     <MESSAGE value="all" />
-    <option name="LAST_COMMIT_MESSAGE" value="all" />
+    <MESSAGE value="stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
